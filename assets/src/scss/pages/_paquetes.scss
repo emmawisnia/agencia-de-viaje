@@ -1,0 +1,112 @@
+.paquetes {
+    .section-paquetes {
+        background-image: url("../../../assets/images/banner-paquetes.jpg");
+        background-attachment: fixed;
+        padding: 2rem;
+        .form-buscar-paquete {
+            background-color: rgb(112, 112, 112);
+            padding: 1rem;
+            border-radius: 10px;
+            .title-paquete {
+                color: whitesmoke;
+            }
+            .detalles-destino {
+                display: inline-flex;
+            }
+            input.input-destino {
+                border: 0px;
+                height: 3rem;
+                &:focus {
+                    border: none !important;
+                }
+                &.origen {
+                    border-bottom-left-radius: 30px;
+                    border-top-left-radius: 30px;
+                }
+                &.hasta {
+                    border-bottom-right-radius: 30px;
+                    border-top-right-radius: 30px;
+                }
+            }
+            .tipo-paquete-container {
+                display: flex;
+                .button-paquete {
+                    margin-right: 1rem;
+                    background-color: #000000;
+                    border: 2px solid transparent;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-size: 1.3ch;
+                    padding: 0.5rem 1rem;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover {
+                        background-color: #ffffff;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+    .section-hoteles {
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .card {
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+                width: 15rem;
+                padding: 0px;
+                border: 1px solid #eaeaea;
+                height: 420px;
+                .cardcontainer {
+                    height: 26rem;
+                    background-color: white;
+                    margin-left: auto;
+                    margin-right: auto;
+                    transition: 0.3s;
+                    width: 100%;
+                    &:hover {
+                        box-shadow: 0 0 45px gray;
+                    }
+                }
+                .photo {
+
+                    background-size: cover;
+                    background-position: center;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    .price {
+                        padding-left: 10px;
+                        font-size: 3ch;
+                        font-weight: bold;
+                        color: white;
+                        float: left;
+                        background-color: #00000070;
+                        display: flex;
+                    }
+                    height: 10rem;
+                    width: 100%;
+                    img {
+                        height: 15rem;
+                        width: 100%;
+                    }
+                }
+                .content {
+                    padding: 1rem;
+                    .title {
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        color: #0d6efd;
+                    }
+                    .description {
+                        font-size: 1.2rem;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

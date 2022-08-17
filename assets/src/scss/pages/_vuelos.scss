@@ -1,0 +1,17 @@
+.vuelos {
+    background-color: #1b557a;
+    color: white;
+    .content {
+        padding: 1rem;
+
+        .form-vuelos {
+            padding: 1rem;
+            border-radius: 20px;
+            background-color: #123851;
+            .input-fecha{
+                padding: 0px;
+            }
+            
+        }
+    }
+}

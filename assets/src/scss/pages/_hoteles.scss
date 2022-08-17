@@ -1,0 +1,29 @@
+.hoteles {
+    .section-hoteles {
+        background-image: url("../../../assets/images/nubes.jpg");
+        background-attachment: fixed;
+        padding: 2rem;
+        .form-buscar-hotel {
+            max-width: 768px;
+            background-color: whitesmoke;
+            padding: 1rem;
+            border-radius: 10px;
+
+            input {
+                border: 2px solid transparent;
+
+                &:focus {
+                    border-color: #000000 !important;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    .section-destinos-turisticos {
+        .card {
+            margin: 2rem;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import "./layout/header";
+@import "./layout/footer";
+@import "./pages/_hoteles.scss";
+@import "./pages/_paquetes.scss";
+@import "./pages/_vuelos.scss";
+@import "./pages/_vuelos_encontrados.scss";
+
+ul {
+    list-style: none;
+}
+
+main.indexPage {
+    .section-contacto {
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "proyecto-final-coder",
+    "version": "1.0.0",
+    "description": "Emma",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass --include-path scss assets/src/scss/styles.scss assets/src/css/styles.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "author": "Emma Wisnia",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
