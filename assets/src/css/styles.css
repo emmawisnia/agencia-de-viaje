@@ -196,3 +196,8 @@ ul {
 
 main.indexPage .section-contacto {
   padding: 2rem; }
+
+main.indexPage .section-publicidad .publicidades {
+  margin: 0 auto; }
+  main.indexPage .section-publicidad .publicidades img {
+    width: 100%; }
